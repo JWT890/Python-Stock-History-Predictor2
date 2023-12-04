@@ -31,5 +31,5 @@ print('Mean Absolute Error:', metrics.mean_absolute_error(y_test, predicted))
 print('Mean Squared Error:', metrics.mean_squared_error(y_test, predicted))
 print('Root Mean Squared Error:', math.sqrt(metrics.mean_squared_error(y_test, predicted)))
 
-graph = data1.head(20)
+graph = data1.head(5)
 graph.plot(kind='bar')
